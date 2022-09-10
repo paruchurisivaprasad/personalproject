@@ -58,3 +58,8 @@ exports.postlogin = async (req, res) => {
     res.status(404).json({ msg: "user not found" });
   }
 };
+
+exports.homepage=(req,res)=>{
+  
+  res.json("welcome to paruchri");
+}
